@@ -116,4 +116,4 @@ graph TB
     NRI -->|"métricas"| NR
 ```
 
-A VPC, as subnets privadas e o security group dos nós vêm de [`tc3-infra-k8s`](https://github.com/tiagostorch/tc3-infra-k8s) pelo state remoto. As credenciais publicadas no SSM são consumidas pela aplicação ([`tech-challenge-fiap`](https://github.com/LucasValada/tech-challenge-fiap)) e pela Lambda de autenticação ([`tc3-auth-lambda`](https://github.com/tiagostorch/tc3-auth-lambda)).
+A VPC, as subnets privadas e o security group dos nós vêm de [`tc3-infra-k8s`](https://github.com/fiap-soat-oficina-tech-challenge/tc3-infra-k8s) pelo state remoto. As credenciais publicadas no SSM são consumidas pela aplicação ([`tech-challenge-fiap`](https://github.com/LucasValada/tech-challenge-fiap)) e pela Lambda de autenticação ([`tc3-auth-lambda`](https://github.com/fiap-soat-oficina-tech-challenge/tc3-auth-lambda)).
